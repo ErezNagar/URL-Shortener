@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "version": "0.1.0",
+  "description": "A simple URL shortener module using Redis",
+  "main": "url-shortener.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node --verbose spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErezNagar/URL-Shortener"
+  },
+  "author": "Erez Nagar <erez.nagar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "redis": "^2.3.0"
+  }
+}
